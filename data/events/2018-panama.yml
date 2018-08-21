@@ -7,15 +7,15 @@ ga_tracking_id: "" # If you have your own Google Analytics tracking ID, enter it
 status: "current" # Options are "past" or "current". Use "current" for upcoming.
 
 # All dates are in unquoted 2017-MM-DD, like this:   variable: 2017-01-05
-startdate: 2018-11-15 # The start date of your event. Leave blank if you don't have a venue reserved yet.
-enddate: 2018-11-17 # The end date of your event. Leave blank if you don't have a venue reserved yet.
+startdate: 2018-11-21 # The start date of your event. Leave blank if you don't have a venue reserved yet.
+enddate: 2018-11-23 # The end date of your event. Leave blank if you don't have a venue reserved yet.
 
 # Leave CFP dates blank if you don't know yet, or set all three at once.
-cfp_date_start: 2018-05-28  # start accepting talk proposals.
-cfp_date_end: 2018-08-15 # close your call for proposals.
-cfp_date_announce: 2018-09-05 # inform proposers of status
+cfp_date_start: 2018-06-23  # start accepting talk proposals.
+cfp_date_end: 2018-10-10 # close your call for proposals.
+cfp_date_announce: 2018-10-13 # inform proposers of status
 
-cfp_open: "2018-05-28"
+cfp_open: "2018-06-23"
 cfp_link: "https://www.papercall.io/cfps/1249/submissions/new"
 
 registration_open: "false"
@@ -136,6 +136,4 @@ sponsors:
   - id: addo-2018
     level: community
   - id: docker-havana
-    level: community
-  - id: addo-2018
     level: community

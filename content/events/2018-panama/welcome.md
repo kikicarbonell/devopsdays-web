@@ -9,7 +9,7 @@ description = ""
 
 **¡DevOpsDays llega a Centro América, desde la República de Panamá!**
 
-Participe y comparta experiencias en 3 días de conferencias, charlas y talleres. Intercambie con practicantes del DevOps y de los principios <a href="http://devopsdictionary.com/wiki/CAMS">C.A.M.S.</a>!!! La cede del evento será la <a href="http://ciudaddelsaber.org"> Ciudad del Saber</a> y tendrá lugar entre el 15 - 17 de noviembre, 2018.
+Participe y comparta experiencias en 3 días de conferencias, charlas y talleres. Intercambie con practicantes del DevOps y de los principios <a href="http://devopsdictionary.com/wiki/CAMS">C.A.M.S.</a>!!! La cede del evento será la <a href="http://ciudaddelsaber.org"> Ciudad del Saber</a> y tendrá lugar entre el 21 - 23 de noviembre, 2018.
 
 Estamos complacidos por su interés de participar como ponente en nuestro evento, DevOpsDays Panamá 2018. Le damos la bienvenida !!!.
 
@@ -17,7 +17,7 @@ Estamos complacidos por su interés de participar como ponente en nuestro evento
 
 ***DevOpsDays is coming to Central America, in Republic of Panama!***
 
-*Come, join us during 3 days of conferences, talks and workshops. Share experiences with other practitioners of DevOps and keep the <a href="http://devopsdictionary.com/wiki/CAMS">C.A.M.S.</a> principles!!! The event will be hosted by the <a href="http://ciudaddelsaber.org">City of Knowledge</a> and will be between Nov 15 - 17, 2018.*
+*Come, join us during 3 days of conferences, talks and workshops. Share experiences with other practitioners of DevOps and keep the <a href="http://devopsdictionary.com/wiki/CAMS">C.A.M.S.</a> principles!!! The event will be hosted by the <a href="http://ciudaddelsaber.org">City of Knowledge</a> and will be between Nov 21 - 23, 2018.*
 
 *We’re excited that you want to be a speaker at our event, DevOpsDays Panamá 2018. Be welcome !!!*
 
@@ -44,7 +44,8 @@ Estamos complacidos por su interés de participar como ponente en nuestro evento
     <strong>Locación / <i>Location</i>:</strong>
   </div>
   <div class = "col-md-30">
-    {{< event_location >}}
+    {{< event_location >}}<br>
+    <i>{{< event_link page="location" text="City of Knowledge" >}}</i>
   </div>
 </div>
 
