@@ -7,18 +7,20 @@ ga_tracking_id: "" # If you have your own Google Analytics tracking ID, enter it
 # Don't think thisis used anymore. - status: "" # Options are "past" or "current". Use "current" for upcoming.
 
 # All dates are in unquoted 2017-MM-DD, like this:   variable: 2017-01-05
-startdate:   # The start date of your event. Leave blank if you don't have a venue reserved yet.
-enddate:  # The end date of your event. Leave blank if you don't have a venue reserved yet.
+startdate: 2019-06-24  # The start date of your event. Leave blank if you don't have a venue reserved yet.
+enddate: 2019-06-28 # The end date of your event. Leave blank if you don't have a venue reserved yet.
+event_start: 2019-06-24
+event_end: 2019-06-28
 
 # Leave CFP dates blank if you don't know yet, or set all three at once.
-cfp_date_start:   # start accepting talk proposals.
-cfp_date_end:  # close your call for proposals.
-cfp_date_announce:  # inform proposers of status
+cfp_date_start: 2018-12-01  # start accepting talk proposals.
+cfp_date_end: 2019-03-09 # close your call for proposals.
+cfp_date_announce: 2019-03-19 # inform proposers of status
 
 cfp_open: ""
 cfp_link: ""
 
-registration_open: "false"
+registration_open: "true"
 registration_link: ""
 
 # Location
@@ -42,12 +44,12 @@ nav_elements: # List of pages you want to show up in the navigation of your page
 # These are the same people you have on the mailing list and Slack channel.
 team_members: # Name is the only required field for team members.
   - name: "Enrique Carbonell"
-    employer: "DATYS"
+    employer:
     bio:
     twitter: "kikicarbonell"
     linkedin: "https://www.linkedin.com/in/enrique-carbonell/"
     facebook:
-    website: "http://www.datys.cu/"
+    website:
     github:
     image: "enrique-carbonell.jpg"
   - name: "Manuel Oliver"
@@ -92,13 +94,13 @@ sponsor_levels: # In this section, list the level of sponsorships and the label 
 #    max: "0"
   - id: gold
     label: Gold
-    max: "0"
+    max: "2"
   - id: silver
     label: Silver
-    max: "0"
+    max: "2"
   - id: bronze
     label: Bronze
-    max: "0"
+    max: "5"
   - id: honorary
     label: Honorary
     max: "2"
